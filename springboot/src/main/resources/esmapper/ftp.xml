@@ -1,0 +1,14 @@
+<properties>
+
+    <property name="test">
+        <![CDATA[{
+            "query": {
+    "match": {
+      "title": "lucene java"
+    }
+  }
+        }]]>
+    </property>
+
+
+</properties>

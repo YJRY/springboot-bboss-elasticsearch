@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8989
 spring:
   elasticsearch:
     bboss:
@@ -7,7 +7,7 @@ spring:
       elasticPassword:
       elasticsearch:
         rest:
-          hostNames: 127.0.0.1:9200
+          hostNames: 192.168.93.128:9200
         dateFormat: yyyy-MM-dd hh:mm:ss
         timeZone: Asia/Shanghai
         ttl: 2d
@@ -33,4 +33,4 @@ spring:
          hostnameVerifier:
 es:
   basePath: esmapper/
-  indexs: teacher,student
+  indexs: ftp,test
