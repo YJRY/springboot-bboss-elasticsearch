@@ -33,4 +33,4 @@ spring:
          hostnameVerifier:
 es:
   basePath: esmapper/
-  indexs: ftp,test
+  indexs: teacher
